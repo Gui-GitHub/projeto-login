@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) { /*TABLET*/
     
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
@@ -8,6 +8,7 @@
 
     section#login{
         width: 85vw;
+        height: 285px;
     }
 
     section#login > div#imagem{
@@ -28,6 +29,17 @@
     div#formulario > p{
         font-size: 1em;
     }
+
+    form > input[type=submit]{
+        width: 90%;
+        margin: auto;
+    }
+
+    form > a.botao{
+        width: 90%;
+        margin: auto;
+        margin-top: 7px;
+    }
 }
 
 @media screen and (min-width: 992px){
@@ -38,6 +50,7 @@
 
     section#login{
         width: 990px;
+        height: 350px;
     }
 
     section#login > div#imagem{
@@ -57,5 +70,17 @@
 
     div#formulario > p{
         font-size: 1.2em;
+        margin: 20px 0px;
+    }
+
+    form > input[type=submit]{
+        width: 80%;
+        margin: auto;
+    }
+
+    form > a.botao{
+        width: 80%;
+        margin: auto;
+        margin-top: 7px;
     }
 }
